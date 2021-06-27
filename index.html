@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/5a7b2ca90a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <form id="search-form">
+        <input
+          type="text"
+          placeholder="Type a city..."
+          id="city-input"
+          autofocus="on"
+          autocomplete="off"
+        />
+        <input type="submit" value="Search" id="search-button" />
+      </form>
+
+      <h1 class="title">
+        <span id="title-city">Kyoto</span>
+      </h1>
+      <h2 id="date"></h2>
+      <span id="day-time"></span>
+      <h2 id="description"></h2>
+      <div class="row">
+        <div class="col-6">
+          <h2>
+            <img src="" alt="Clear" id="icon" class="float-left" />
+            <span id="number"></span>
+            <span id="unit"> °C </span>
+          </h2>
+        </div>
+        <div class="col-6">
+          <div class="details">
+            <ul class="weatherDetails">
+              <li>Feels like: <span id="feels-like"></span>°C</Canvas></li>
+              <li>Humidity: <span id="humidity"></span>%</li>
+              <li>Wind: <span id="wind-speed"></span> km/h</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="weather-forecast" id="forecast"></div>
+    </div>
+    <p>
+      Coded by
+      <a href="https://www.linkedin.com/in/kaori-tsuji-b63822184/">
+        Kaori Tsuji</a
+      >
+    </p>
+    <script src="src/script.js"></script>
+  </body>
+</html>

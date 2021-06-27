@@ -1,0 +1,179 @@
+.container {
+  background-color: rgb(248, 200, 128);
+  border-radius: 10px;
+  color: white;
+  padding: 20px;
+  max-width: 565px;
+  font-family: monospace;
+  margin-top: 30px;
+}
+
+#title-city {
+  color: white;
+  margin: 0;
+  font-weight: 900;
+  font-size: 50px;
+  padding-top: 0px;
+  margin-bottom: 0;
+  line-height: 0;
+}
+
+.title {
+  margin-bottom: 0;
+}
+
+#date {
+  font-size: 20px;
+  margin-left: 0;
+}
+
+#description {
+  font-size: 20px;
+  line-height: 5px;
+  margin: 5px;
+  margin-left: 0;
+}
+
+form {
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+#city-input {
+  border-radius: 10px;
+  font-family: monospace;
+  padding: 15px;
+  border: 1px solid #ffffff;
+  transition: 2ms all ease-in-out;
+  padding-left: 10px;
+  padding-right: 150px;
+}
+
+#city-input:hover {
+  cursor: pointer;
+  background-color: #f2edd7;
+}
+#search-button {
+  border-radius: 10px;
+  font-family: monospace;
+  padding: 15px 40px;
+  border: 1px solid #ffffff;
+  transition: 2ms all ease-in-out;
+  background-color: white;
+  margin-left: 5px;
+}
+
+#searchButton:hover {
+  background-color: rgb(240, 217, 187);
+}
+
+button {
+  border-radius: 10px;
+  font-family: monospace;
+  padding: 15px;
+  border: 1px solid #ffffff;
+  transition: 2ms all ease-in-out;
+  display: inline;
+}
+input:hover {
+  cursor: pointer;
+  background-color: rgb(240, 217, 187);
+}
+
+div.col-6 {
+  padding: 0;
+}
+
+img {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+#number {
+  font-size: 70px;
+  font-weight: 900;
+  position: relative;
+  top: 6px;
+}
+
+#unit {
+  font-size: 30px;
+  position: relative;
+  top: -20px;
+
+  letter-spacing: 2px;
+}
+
+.weather {
+  list-style: none;
+  display: inline-block;
+  border-color: black;
+  padding: 10px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+i {
+  font-size: 40px;
+}
+
+.details {
+  font-size: 16px;
+  display: inline-block;
+  padding-top: 8px;
+  font-family: monospace;
+  line-height: 20px;
+  list-style-type: none;
+}
+
+.weatherDetails {
+  margin-top: 12px;
+  padding-left: 15px;
+}
+
+hr {
+  border: 2px dashed white;
+  margin-top: 0;
+}
+
+.texts {
+  text-align: center;
+  font-family: monospace;
+  font-size: 15px;
+}
+
+.week {
+  padding-left: 20px;
+}
+
+p {
+  text-align: center;
+  font-family: monospace;
+  padding-right: 400px;
+}
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  color: white;
+}
+
+.weather-forecast img {
+  width: 45px;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.7;
+}
+
+.weather-forecast-temperatures {
+  font-size: 13px;
+}
+
+#forecast {
+  padding: 10px;
+}
